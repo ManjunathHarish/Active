@@ -1,7 +1,5 @@
-com/bank/accounts/collections/UserModel/TotalResult.class
 com/bank/accounts/collections/UserModel/UserDetailsListResult.class
 com/bank/accounts/controller/AccountDetailsController.class
-com/bank/accounts/controller/MyResources.class
 com/bank/accounts/databaseStorage/UserDetailsStorage.class
 com/bank/accounts/databaseStorage/Repository.class
 com/bank/accounts/databaseStorage/AccountDetailsStorage.class

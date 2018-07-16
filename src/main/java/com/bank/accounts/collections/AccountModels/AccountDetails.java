@@ -1,5 +1,7 @@
 package com.bank.accounts.collections.AccountModels;
 
+
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -10,7 +12,7 @@ import com.bank.accounts.collections.UserModel.UserDetails;
 
 
 
-@XmlRootElement
+//@XmlRootElement
 @Entity
 @Table(name = "account_details")
 public class AccountDetails {

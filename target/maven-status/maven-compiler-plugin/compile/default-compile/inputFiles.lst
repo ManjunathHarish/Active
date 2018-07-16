@@ -4,7 +4,6 @@
 /home/dev/active.ai/java/account/src/main/java/com/bank/accounts/collections/AccountModels/NormalAccountResult.java
 /home/dev/active.ai/java/account/src/main/java/com/bank/accounts/databaseStorage/SQLConfiguration.java
 /home/dev/active.ai/java/account/src/main/java/com/bank/accounts/collections/AccountModels/AccountDetails.java
-/home/dev/active.ai/java/account/src/main/java/com/bank/accounts/collections/UserModel/TotalResult.java
 /home/dev/active.ai/java/account/src/main/java/com/bank/accounts/databaseStorage/Repository.java
 /home/dev/active.ai/java/account/src/main/java/com/bank/accounts/collections/UserModel/UserDetails.java
 /home/dev/active.ai/java/account/src/main/java/com/bank/accounts/controller/AccountDetailsController.java
@@ -12,4 +11,3 @@
 /home/dev/active.ai/java/account/src/main/java/com/bank/accounts/collections/AccountModels/AccountResult.java
 /home/dev/active.ai/java/account/src/main/java/com/bank/accounts/databaseStorage/UserDetailsStorage.java
 /home/dev/active.ai/java/account/src/main/java/com/bank/accounts/collections/UserModel/UserDetailsResult.java
-/home/dev/active.ai/java/account/src/main/java/com/bank/accounts/controller/MyResources.java

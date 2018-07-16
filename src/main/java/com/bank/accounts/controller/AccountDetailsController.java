@@ -41,6 +41,10 @@ public class AccountDetailsController {
 			r.setStatus("faillure");
 			r.setDescription("no data found");
 			return r;
+		}catch(Exception e) {
+			e.printStackTrace();
+			r.setDescription("something went wrong");
+			return r;
 		}
 	}
 	

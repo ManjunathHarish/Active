@@ -1,5 +1,6 @@
 package com.bank.accounts.collections.UserModel;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.Entity;
@@ -11,7 +12,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import com.bank.accounts.collections.AccountModels.AccountDetails;
 
 
-@XmlRootElement
+//@XmlRootElement
 @Entity
 @Table(name = "user_details")
 public class UserDetails {
@@ -23,7 +24,7 @@ public class UserDetails {
 	private String email;
 	private int phone_number;
 	@OneToMany(mappedBy="customer")
-	private List<AccountDetails> accounts;
+	private List<AccountDetails> accounts=new ArrayList<AccountDetails>();
 	public int getId() {
 		return id;
 	}

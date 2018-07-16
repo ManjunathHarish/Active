@@ -23,7 +23,7 @@ public class AccountDetailsStorage{
 		 }
 	 }
 
-	 public List<AccountDetails> getAllAccounts() throws BadRequestException
+	 public List<AccountDetails> getAllAccounts() throws Exception
 	 {
 		 try {
 			 String hql = "FROM AccountDetails";
@@ -36,6 +36,10 @@ public class AccountDetailsStorage{
 		 catch(BadRequestException e)
 		 {
 			 throw new BadRequestException(e);
+		 }
+		 catch(Exception e)
+		 {
+			 throw e;
 		 }
 	}
 	 

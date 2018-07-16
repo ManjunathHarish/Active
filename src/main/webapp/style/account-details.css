@@ -1,0 +1,12 @@
+.headding{
+color:red;
+text-align:center;
+}
+.container{
+	width:fit-content;
+	border:solid;
+	margin-left:41%;	
+}
+.value{
+	margin-left:100px;
+}

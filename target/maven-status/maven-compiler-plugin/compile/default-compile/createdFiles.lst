@@ -1,0 +1,15 @@
+com/bank/accounts/collections/UserModel/TotalResult.class
+com/bank/accounts/collections/UserModel/UserDetailsListResult.class
+com/bank/accounts/controller/AccountDetailsController.class
+com/bank/accounts/controller/MyResources.class
+com/bank/accounts/databaseStorage/UserDetailsStorage.class
+com/bank/accounts/databaseStorage/Repository.class
+com/bank/accounts/databaseStorage/AccountDetailsStorage.class
+com/bank/accounts/collections/AccountModels/AccountResult.class
+com/bank/accounts/collections/AccountModels/AccountDetails.class
+com/bank/accounts/collections/UserModel/UserDetails.class
+com/bank/accounts/collections/UserModel/UserDetailsResult.class
+com/bank/accounts/controller/UserDetailsController.class
+com/bank/accounts/databaseStorage/SQLConfiguration.class
+com/bank/accounts/ExceptionHandling/BadRequestException.class
+com/bank/accounts/collections/AccountModels/NormalAccountResult.class

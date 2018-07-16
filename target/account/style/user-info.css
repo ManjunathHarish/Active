@@ -1,0 +1,17 @@
+.headding{
+color:red;
+text-align:center;
+}
+.container{
+border:solid;
+border-color:grey;
+height:200px;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+width:25%;
+margin-left:38%;
+}
+.value{
+	display:grid;
+	grid-template-columns:4fr 5fr 3fr;
+}

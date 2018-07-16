@@ -1,0 +1,19 @@
+.headding{
+color:red;
+text-align:center;
+}
+.container{
+border:solid;
+border-color:grey;
+height:200px;
+text-align:center;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+width:25%;
+margin-left:38%;
+}
+.container .head{
+padding:10px;
+display: grid;
+grid-template-rows: 1fr 1fr ;
+}

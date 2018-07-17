@@ -18,17 +18,17 @@ import com.bank.accounts.collections.UserModel.UserDetails;
 public class AccountDetails {
 	
 	@Id
-	private int account_number;
-	private int balance;
-	@ManyToOne
+	private long account_number;
+	private long balance;
+	@ManyToOne(cascade =CascadeType.ALL)
 	private UserDetails customer;
-	public int getAccount_number() {
+	public long getAccount_number() {
 		return account_number;
 	}
 	public void setAccount_number(int account_number) {
 		this.account_number = account_number;
 	}
-	public int getBalance() {
+	public long getBalance() {
 		return balance;
 	}
 	public void setBalance(int balance) {

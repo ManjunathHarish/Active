@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.Entity;
+import javax.persistence.GenerationType;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.OneToMany;
@@ -18,19 +20,20 @@ import com.bank.accounts.collections.AccountModels.AccountDetails;
 public class UserDetails {
 	
 	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int id;
 	private String name;
 	private String address;
 	private String email;
-	private int phone_number;
+	private long phone_number;
 	@OneToMany(mappedBy="customer")
 	private List<AccountDetails> accounts=new ArrayList<AccountDetails>();
 	public int getId() {
 		return id;
 	}
-	public void setId(int id) {
-		this.id = id;
-	}
+//	public void setId(int id) {
+//		this.id = id;
+//	}
 	public String getName() {
 		return name;
 	}
@@ -49,7 +52,7 @@ public class UserDetails {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public int getPhone_number() {
+	public long getPhone_number() {
 		return phone_number;
 	}
 	public void setPhone_number(int phone_number) {
